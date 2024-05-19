@@ -22,11 +22,27 @@
 /* Typography
 --------------------------------------------- */
 
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.6rem;
+}
+
 /* Elements
 --------------------------------------------- */
 
 /* Links
 --------------------------------------------- */
+
+a {
+  color: black;
+  text-decoration: none;
+}
 
 /*--------------------------------------------------------------
 # Components
@@ -34,6 +50,13 @@
 
 /* Header
 --------------------------------------------- */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  flex-shrink: 1;
+}
 
 /* Main
 --------------------------------------------- */
