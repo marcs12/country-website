@@ -58,8 +58,17 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding: 0 2rem;
+  padding: 0 5rem;
   align-items: center;
+  width: 150rem;
+  max-width: 250rem;
+}
+
+/* Keeps Menu centered on Large screens */
+@media (min-width: 1440px) {
+  nav ul {
+    max-width: 1440px;
+  }
 }
 
 nav {
@@ -70,6 +79,8 @@ nav {
   background: #ffffffa2;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 nav img {
