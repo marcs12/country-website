@@ -19,6 +19,10 @@
 # Base
 --------------------------------------------------------------*/
 
+body {
+  background: #ffffff;
+}
+
 /* Typography
 --------------------------------------------- */
 
@@ -40,7 +44,7 @@ nav {
 --------------------------------------------- */
 
 a {
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -54,8 +58,22 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem;
-  flex-shrink: 1;
+  padding: 0 2rem;
+  align-items: center;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ffffffa2;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 0;
+}
+
+nav img {
+  width: 3rem;
 }
 
 /* Main
