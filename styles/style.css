@@ -54,14 +54,33 @@ a {
 
 /* Header
 --------------------------------------------- */
+
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  padding: 0 5rem;
-  align-items: center;
-  width: 150rem;
-  max-width: 250rem;
+  justify-content: flex-start;
+  padding: 0.2rem;
+}
+
+nav ul li {
+  padding: 1rem;
+}
+
+#japan-logo {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  nav ul {
+    justify-content: space-between;
+    padding: 0 5rem;
+    align-items: center;
+    width: 150rem;
+    max-width: 250rem;
+  }
+  #japan-logo {
+    display: block;
+  }
 }
 
 /* Keeps Menu centered on Large screens */
