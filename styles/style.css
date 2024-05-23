@@ -55,6 +55,10 @@ a {
 /* Header
 --------------------------------------------- */
 
+.header-wrap {
+  z-index: 1001;
+}
+
 @media (max-width: 800px) {
   .mobile-menu-wrap {
     display: flex;
@@ -133,6 +137,7 @@ nav {
   margin: 0;
   display: none;
   justify-content: space-around;
+  z-index: 1000;
 }
 
 nav img {
@@ -142,27 +147,30 @@ nav img {
 /* Main
 --------------------------------------------- */
 
-.header-top {
+.sec-top-wrap {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  text-align: center;
+  z-index: 999;
 }
 
-.header-top h1 {
-  font-size: 1.6rem;
+.section-top h1 {
+  font-size: 8rem;
   font-weight: 400;
-  color: black;
-  text-align: center;
-  margin-top: 1rem;
+  letter-spacing: 2rem;
+  color: #ffffff;
   font-family: "Bebas Neue", sans-serif;
   position: absolute;
+  padding: 8rem 0 0 0;
 }
 
 .img-main {
   padding-top: 8rem;
-  display: block;
+  display: flex;
   max-width: 70rem;
+  filter: brightness(50%);
+  flex-shrink: 0;
 }
 
 /* Footer
