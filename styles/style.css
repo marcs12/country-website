@@ -128,7 +128,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background: #ffffffa2;
+  background: #ffffff;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin: 0;
   display: none;
@@ -141,6 +141,29 @@ nav img {
 
 /* Main
 --------------------------------------------- */
+
+.header-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header-top h1 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  margin-top: 1rem;
+  font-family: "Bebas Neue", sans-serif;
+  position: absolute;
+}
+
+.img-main {
+  padding-top: 8rem;
+  display: block;
+  max-width: 70rem;
+}
 
 /* Footer
 --------------------------------------------- */
