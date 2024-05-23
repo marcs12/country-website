@@ -89,10 +89,12 @@ nav ul {
   display: flex;
   justify-content: flex-start;
   padding: 0.2rem;
+  margin: -0.5rem;
 }
 
 nav ul li {
   padding: 1rem;
+  letter-spacing: 0.5rem;
 }
 
 #japan-logo {
@@ -166,7 +168,7 @@ nav img {
 }
 
 .img-main {
-  padding-top: 8rem;
+  padding-top: 5rem;
   display: flex;
   max-width: 70rem;
   filter: brightness(50%);
