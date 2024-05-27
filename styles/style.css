@@ -170,9 +170,8 @@ nav img {
 .img-main {
   padding-top: 5rem;
   display: flex;
-  max-width: 70rem;
   filter: brightness(50%);
-  flex-shrink: 0;
+  padding-right: 2rem;
 }
 
 /* Footer
