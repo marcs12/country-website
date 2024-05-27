@@ -56,6 +56,7 @@ a {
 --------------------------------------------- */
 
 .header-wrap {
+  position: fixed;
   z-index: 1001;
 }
 
@@ -65,12 +66,13 @@ a {
     padding: 1rem;
     align-items: center;
     justify-content: center;
-    min-width: none;
     position: fixed;
     top: 0;
     margin-top: 1rem;
     border-radius: 15%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #ffffff;
+    z-index: 1000;
   }
 
   .hamburger-menu img {
@@ -139,7 +141,7 @@ nav {
   margin: 0;
   display: none;
   justify-content: space-around;
-  z-index: 1000;
+  z-index: 1002;
 }
 
 nav img {
@@ -181,7 +183,7 @@ nav img {
   padding-top: 5rem;
   filter: brightness(50%);
   margin: 1rem;
-  border-radius: 2rem;
+  border-radius: 2rem 2rem;
 }
 
 @media (max-width: 425px) {
@@ -189,6 +191,11 @@ nav img {
     font-size: 4rem;
     letter-spacing: 1rem;
     padding: 4rem 0 0 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .img-main {
   }
 }
 /* Footer
