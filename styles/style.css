@@ -171,7 +171,8 @@ nav img {
   padding-top: 5rem;
   display: flex;
   filter: brightness(50%);
-  padding-right: 2rem;
+  min-width: 20rem;
+  margin: 1rem;
 }
 
 /* Footer
