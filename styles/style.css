@@ -207,5 +207,15 @@ nav img {
   .img-main {
   }
 }
+
+blockquote {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 50rem;
+}
 /* Footer
 --------------------------------------------- */
