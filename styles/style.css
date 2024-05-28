@@ -186,25 +186,21 @@ nav img {
   font-family: "Bebas Neue", sans-serif;
   position: absolute;
   padding: 8rem 0 0 0;
+  transition: ease 0.7s;
 }
 
 .img-main {
-  padding-top: 5rem;
   filter: brightness(50%);
-  margin: 1rem;
-  border-radius: 2rem 2rem;
+  margin: 5rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
 }
 
 @media (max-width: 425px) {
   .section-top h1 {
     font-size: 4rem;
     letter-spacing: 1rem;
-    padding: 4rem 0 0 0;
-  }
-}
-
-@media (max-width: 800px) {
-  .img-main {
+    padding: 7rem 0 0 0;
+    transition: ease 0.7s;
   }
 }
 
@@ -214,8 +210,13 @@ blockquote {
   font-style: italic;
   text-align: center;
   margin: 0 auto;
-  padding: 2rem;
   max-width: 50rem;
+}
+
+blockquote footer {
+  background-color: #ececec;
+  border-radius: 5px;
+  padding: 0.5rem;
 }
 /* Footer
 --------------------------------------------- */
