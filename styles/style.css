@@ -80,7 +80,8 @@ a {
   }
 
   .hamburger-menu {
-    text-align: right;
+    width: fit-content;
+    margin-left: auto;
   }
 
   .logo-mobile {
