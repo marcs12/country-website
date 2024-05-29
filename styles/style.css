@@ -219,5 +219,52 @@ blockquote footer {
   border-radius: 5px;
   padding: 0.5rem;
 }
+
+/* Circles */
+
+.circle-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1120px;
+}
+
+.circle-wrap figure img {
+  max-width: 15rem;
+  align-items: center;
+  height: auto;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.circle-wrap figure figcaption {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 15rem;
+}
+
+@media (min-width: 1000px) {
+  .circle-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+  }
+
+  .circle-about {
+    grid-column: 2/3;
+  }
+  .circle-food {
+    grid-column: 3/4;
+  }
+  .circle-credits {
+    grid-column: 4/5;
+  }
+}
+
 /* Footer
 --------------------------------------------- */

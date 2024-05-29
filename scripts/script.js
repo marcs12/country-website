@@ -1,10 +1,6 @@
 "use strict";
 
 // Hamburger Menu Toggle
-
-const mblButtonNav = document.getElementById("hamburger-menu");
-const mainNav = document.querySelector("nav");
-
-mblButtonNav.addEventListener("click", () => {
-  mainNav.style.display = "flex";
-});
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links li");
