@@ -190,7 +190,7 @@ nav img {
   color: #ffffff;
   font-family: "Bebas Neue", sans-serif;
   position: absolute;
-  padding: 8rem 0 0 0;
+  padding: 8rem 0 0 2.15rem;
   transition: ease 0.7s;
 }
 
@@ -285,7 +285,7 @@ footer a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
   max-width: 36.25rem;
   margin: 0 auto;
   background-color: #ececec;
