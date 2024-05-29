@@ -19,6 +19,10 @@
 # Base
 --------------------------------------------------------------*/
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #ffffff;
 }
@@ -268,3 +272,32 @@ blockquote footer {
 
 /* Footer
 --------------------------------------------- */
+footer {
+  background: #ffffff;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 36.25rem;
+  margin: 0 auto;
+  background-color: #ececec;
+  color: #000000;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
