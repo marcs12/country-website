@@ -19,3 +19,13 @@ hamNav.forEach((ham) => {
 closeHam.addEventListener("click", () => {
   toggledView.classList.toggle("show");
 });
+
+// loop video every 5 seconds
+const video = document.getElementById("main-video");
+
+video.addEventListener("ended", function () {
+  console.log("ended");
+  setTimeout(function () {
+    video.play();
+  }, 4000);
+});
