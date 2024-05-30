@@ -455,16 +455,6 @@ blockquote footer {
 
 /* Japanese Foods */
 
-.top-heading {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 2rem;
-  font-weight: 400;
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 7rem;
-  max-width: 15rem;
-}
-
 .section-wrap-food {
   display: flex;
   flex-direction: column;
@@ -505,6 +495,38 @@ blockquote footer {
   border-radius: 0.5rem;
   margin: 1rem;
   transition: ease 0.5s;
+}
+
+@media (min-width: 800px) {
+  .section-wrap-food {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5rem;
+  }
+
+  .section-wrap-food article {
+    padding: 2rem;
+    justify-self: center;
+    transition: ease 0.5s;
+  }
+
+  .sushi {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .ramen {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .tempura {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .bbq {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
 }
 
 /* Circles @ Home*/
