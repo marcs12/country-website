@@ -12,7 +12,6 @@
     />
     <link rel="stylesheet" href="styles/normalize-fwd.css" />
     <link rel="stylesheet" href="styles/style.css" />
-    <script def src="/scripts/script.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -20,6 +19,7 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+    <script defer src="/scripts/script.js"></script>
   </head>
   <body>
     <header class="header-wrap">
@@ -27,11 +27,37 @@
         <a href="index.html" class="logo-mobile"
           ><img src="assets/icons/jpn-logo.svg" alt="red circle logo"
         /></a>
-        <a href="#" class="hamburger-menu" id="hamburger-menu"
+        <a href="#" class="hamburger-menu"
           ><img
+            id="hamburger-menu-img"
             src="/assets/icons/menu_24dp_FILL1_wght600_GRAD0_opsz24.svg"
             alt="hamburger menu"
         /></a>
+      </div>
+      <div id="hamburger-menu-nav">
+        <nav class="nav-mobile" id="nav-mobile">
+          <ul id="main-ham">
+            <li id="close-ham-img">
+              <img
+                id="close-ham-img"
+                src="/assets/icons/close_24dp_FILL1_wght600_GRAD0_opsz24.svg"
+                alt="close menu"
+              />
+            </li>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="food.html">Food</a>
+            </li>
+            <li>
+              <a href="credits.html">Credits</a>
+            </li>
+          </ul>
+        </nav>
       </div>
       <nav class="nav-main" id="nav-main">
         <ul>
@@ -58,7 +84,9 @@
     <main>
       <section id="section-top">
         <article class="main-video">
-          <video autoplay src="/assets/videos/jpn-cutoout.mp4"></video>
+          <video autoplay src="/assets/videos/jpn-cutoout.mp4" id="main-video">
+            Your Browser Does Not Support the Video Tag
+          </video>
         </article>
       </section>
       <section>
